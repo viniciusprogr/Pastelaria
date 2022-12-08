@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  position: relative;
+  font-family: "EB Garamond", serif;
+  font-size: 14px;
+}
+
+body {
+  overflow-x: hidden;
+  height: auto;
+}
+.icones {
+  position: relative;
+  left: 1100px;
+  top: -170px;
+}
+.icones-2 {
+  position: relative;
+  left: 1150px;
+  top: -211px;
+}
+.background {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  max-width: 100%;
+  background: linear-gradient(90deg, #8f0606 0%, #8f0606 100%);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  position: fixed;
+  background: transparent;
+  transition: all 0.35s ease;
+  background-color: #fff;
+  padding: 14px 14%;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  right: 180px;
+}
+
+.cabeçalho-link {
+  display: flex;
+  gap: 3rem;
+  position: relative;
+  left: 350px;
+}
+
+.cabeçalho-link a {
+  color: #000;
+  font-weight: 700;
+  transition: 0.3s;
+  position: relative;
+  right: 20px;
+}
+
+.cabeçalho-link a:hover {
+  position: relative;
+  right: 0px;
+  color: #8f0606;
+}
+
+.icon span {
+  font-size: 2rem;
+  cursor: ;
+}
+
+.icon span:hover {
+  color: #93a391;
+}
+
+.Meio {
+  padding: 7rem 0 0 8.5rem;
+  line-height: 4rem;
+}
+
+.Meio h1 {
+  font-size: 4rem;
+  right: 115px;
+  top: -10px;
+}
+
+.Meio button {
+  background-color: #93a391;
+  padding: 1rem 3rem 1rem 3rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Meio button:hover {
+  background-color: #111;
+  transform: scaleY(1.2);
+}
+
+section {
+  padding-top: 7rem;
+}
+
+section h1 {
+  font-size: 2rem;
+}
+.container-cards-1 {
+  position: relative;
+  position: relative;
+  width: 250px;
+  height: auto;
+  transition: 0.35s ease;
+}
+
+.cards img {
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  height: 200;
+  transition: 0.35s ease;
+  display: inline-block;
+  float: left;
+  margin: 6%;
+  width: 250px !important;
+  height: 188px !important;
+  top: -50px;
+  inline-size: ;
+}
+
+.cards img:hover {
+  transform: scale(0.9) translateY(-5px);
+  cursor: pointer;
+}
+
+.cta {
+  height: 60vh;
+  width: 100%;
+  background: url(../img/ffffc.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.text-cta {
+  padding-left: 5rem;
+}
+
+.text-cta h6 {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin-bottom: 14px;
+}
+
+.text-cta h4 {
+  font-size: 3.3rem;
+  line-height: 1.2;
+  letter-spacing: 0.6rem;
+  margin-bottom: 30px;
+}
+
+.text-cta a {
+  background-color: #93a391;
+  padding: 1rem 3rem 1rem 3rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.text-cta a:hover {
+  background-color: #111;
+  transform: scaleY(1.2);
+}
+
+#Contato {
+  display: flex;
+  gap: 5rem;
+  justify-content: space-around;
+  background: linear-gradient(90deg, #000 0%, #000 100%);
+  padding: 8rem;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h1 {
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 1.6rem;
+  right: 500px;
+  top: 45px;
+}
+h5 {
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 1.6rem;
+  right: 427px;
+  top: -35px;
+}
+.Endereço {
+  top: -400px;
+  right: 320px;
+  font-size: 500px;
+}
+.Telefone {
+  top: 70px;
+  right: 320px;
+}
+.Whatsapp {
+  top: 100px;
+  right: 320px;
+}
+.Horario {
+  top: -213px;
+  left: 280px;
+}
+
+.last-text {
+  text-align: center;
+  background-color: #555;
+  color: #fff;
+}
+
+iframe {
+  position: absolute;
+  left: 600px;
+  width: 300px;
+  height: 275px;
+  top: -530px;
+}
+.titulo-1 h1 {
+  color: #000;
+}
+.Pasteis {
+  left: 130px;
+  top: -90px;
+  font-size: xxx-large;
+}
+.Tapioca {
+  top: -150px;
+  left: 530px;
+  font-size: xxx-large;
+}
+.Bebidas {
+  top: -215px;
+  left: 930px;
+  font-size: xxx-large;
+}
+
+.titulotext h1 {
+  color: #000;
+  top: 70px;
+  left: 5rem;
+}
+.fundotext {
+  background-color: #e7d6c4;
+  top: -200px;
+}
+.textodesc p {
+  color: rgb(0, 0, 0);
+  top: 100px;
+  left: 30px;
+}
+
+.textodesc strong {
+  color: rgb(0, 0, 0);
+}
+
+.tituloVEND h1 {
+  color: #000;
+  left: 460px;
+  top: -160px;
+  font-size: xxx-large;
+  font-family: "Noto Serif Khojki", serif;
+  background-color: #e;
+  position: absolute;
+}
+.local img {
+  width: 330px !important;
+  height: 230px !important;
+  top: -60px;
+  left: 900px;
+}
+
+@media (min-width: 1024px) {
+  .carousel-inner,
+  .carousel-item active {
+    overflow: hidden;
+    width: 1349px;
+    height: 400px;
+    margin: 0 auto;
+    top: -197px;
+  }
+
+  .carousel-indicators {
+    width: 40%;
+  }
+
+  #carouselExampleSlidesOnly {
+    width: 1349px;
+    height: 400px;
+  }
+}
+@media only screen and (max-device-width: 900px) {
+  .menu {
+    width: 600px;
+  }
+}
